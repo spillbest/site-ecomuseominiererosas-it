@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cazeus Login: Guida ad Accesso e Registrazione</title>
+<meta name="description" content="Scopri come registrarti e fare login su Cazeus, recuperare la password, risolvere problemi di accesso e verificare sicurezza, KYC e licenza.">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="canonical" href="https://ecomuseominiererosas.it/accesso/">
+<link rel="alternate" hreflang="it-it" href="https://ecomuseominiererosas.it/accesso/">
+<link rel="alternate" hreflang="x-default" href="https://ecomuseominiererosas.it/">
+<style>
+.subTop{background:var(--surface);border-bottom:1px solid var(--line)}
+.crumbs{font-size:12px;color:var(--mut);padding:14px 0 0}.crumbs a{color:#c9c9df}.crumbs b{color:var(--ink)}
+.subHero{padding:12px 0 18px}.subHero h1{color:var(--ink);font-size:30px;font-weight:800;line-height:1.2;max-width:820px}
+.clusterNav{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.clusterNavIn{display:flex;gap:6px 22px;flex-wrap:wrap;padding:12px 20px;font-size:14px}
+.clusterNav a{color:var(--mut);font-weight:700}.clusterNav a:hover{color:var(--ink)}.clusterNav a.on{color:var(--gold)}
+.article{max-width:860px;padding:26px 0 10px}
+.article h2{font-size:22px;margin:26px 0 10px;color:var(--ink)}.article h3{font-size:17px;margin:18px 0 8px;color:var(--ink)}
+.article p{color:#c6c6dc;margin-bottom:13px;line-height:1.7}
+.article ul{margin:0 0 14px 20px}.article li{margin-bottom:6px;color:#c6c6dc}
+.article a{color:var(--gold);font-weight:600}
+.article .tbl{overflow-x:auto;margin:0 0 16px}
+.article table{width:100%;border-collapse:collapse;font-size:14px}
+.article th,.article td{border:1px solid var(--line);padding:9px 12px;text-align:left;color:#c6c6dc}
+.article th{background:var(--surface);color:var(--ink);font-weight:700}
+.article details.faq,.article blockquote.note{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px;background:var(--surface)}
+.article details.faq summary{font-weight:700;cursor:pointer;color:var(--ink)}.article details.faq p{margin:8px 0 0}
+.article blockquote.note{border-left:3px solid var(--gold);border-radius:0 10px 10px 0}
+.article blockquote.note>*:first-child{margin-top:0}.article blockquote.note p{margin:0 0 6px;color:#d5d5e6}.article blockquote.note ul{margin:6px 0 0 18px}
+.stars{color:var(--gold);letter-spacing:1px;white-space:nowrap}
+.ctaBox{background:linear-gradient(120deg,#13182a,#0b101e);border:1px solid var(--line);border-radius:14px;padding:20px 24px;margin:22px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ctaBox b{color:var(--gold)}.ctaBox .btn{background:linear-gradient(135deg,#d4af37,#b8941e);color:#0a0a14;padding:11px 22px;border-radius:12px;font-weight:700}
+.clusterFoot{display:flex;gap:8px 18px;flex-wrap:wrap;padding:18px 0;border-top:1px solid var(--line);font-size:13px;margin-top:20px}
+.clusterFoot a{color:var(--gold);font-weight:600}
+.appBox{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:6px 0 24px}
+.appHead{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.appIco{width:64px;height:64px;border-radius:16px;background:#fff;padding:8px;flex:none}
+.appMeta{flex:1;min-width:220px}.appName{font-size:20px;font-weight:800;color:var(--ink)}
+.appRate{font-size:13px;color:var(--green);margin:2px 0 12px}.appRate b{color:var(--gold)}
+.appBtns{display:flex;gap:10px;flex-wrap:wrap}
+.appBox .btn.appDl{background:linear-gradient(135deg,#d4af37,#b8941e);color:#0a0a14;padding:11px 18px;border-radius:12px;font-weight:700}
+.appBox .btn.appDl.ios{background:transparent;border:1.5px solid var(--gold);color:var(--gold)}
+.appSpec{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}
+.appSpec td{border-top:1px solid var(--line);padding:10px 4px;color:#c6c6dc}.appSpec td:first-child{color:var(--mut);width:42%}
+.reviews{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 20px}
+.rvw{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.rvw-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;gap:8px}
+.rvw-n{font-weight:700;color:var(--ink)}.rvw-s{color:var(--gold);font-size:13px;letter-spacing:1px;white-space:nowrap}
+.rvw-t{color:#c6c6dc;font-size:14px;margin:0;line-height:1.6}
+@media(max-width:640px){.reviews{grid-template-columns:1fr}}
+.promoWrap{margin:8px 0 24px}
+.promoGroupT{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);font-weight:800;margin:16px 0 10px}
+.promoGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.promoTile{display:block;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--surface);transition:.15s}
+.promoTile:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:0 8px 22px rgba(0,0,0,.45)}
+.promoTile img{display:block;width:100%;height:auto}
+@media(max-width:840px){.promoGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.promoGrid{grid-template-columns:1fr}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ecomuseominiererosas.it/"}, {"@type": "ListItem", "position": 2, "name": "Cazeus: Guida Completa ad Accesso e Login", "item": "https://ecomuseominiererosas.it/accesso/"}]}</script>
+</head>
+<body>
+<header class="header-wrapper">
+  <div class="header-container wrap">
+    <div class="stb-header">
+      <div class="header__nav">
+        <button class="nav-control" type="button" aria-label="Apri il menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></line>
+            <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></line>
+            <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></line>
+          </svg>
+        </button>
+        <a class="stb-logo" href="/">CAZEUS</a>
+      </div>
+      <div class="header__actions">
+        <a class="btn btn--secondary" data-aff href="https://api.ecomuseominiererosas.it/login">Accedi</a>
+        <a class="btn btn--primary" data-aff href="https://api.ecomuseominiererosas.it/login">Registrati</a>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="subTop"><div class="wrap">
+  <div class="crumbs"><a href="/">Home</a> / <b>Accesso</b></div>
+  <div class="subHero"><h1>Cazeus: Guida Completa ad Accesso e Login</h1></div>
+</div></section>
+<div class="clusterNav"><div class="wrap clusterNavIn"><a href="/">Home</a><a href="/bonus/">Bonus</a><a href="/recensioni/">Recensioni</a><a href="/accesso/" class="on">Accesso</a><a href="/app/">App</a><a href="/prelievi/">Prelievi</a><a href="/verifica/">Verifica</a></div></div>
+<main class="wrap">
+  <article class="article">
+<p>Vuoi entrare nel tuo account Cazeus senza perderci mezza giornata? Sei nel posto giusto. Qui trovi tutto: come registrarti da zero, come fare il login, cosa fare se dimentichi la password e come sbloccare i tipici intoppi che ti chiudono fuori. Niente giri di parole, solo passaggi concreti — compresi i dettagli su depositi, verifica dei documenti e licenza che le altre guide, guarda caso, tendono a nascondere.</p>
+<h2>Cos&#x27;è Cazeus Casino?</h2>
+<p>Cazeus è una piattaforma di gioco online costruita su tecnologia STB, con un&#x27;offerta che abbraccia sia il casinò sia le scommesse sportive. Il catalogo è ampio: oltre 5000 titoli tra slot (Book of Ra Magic, Wolf Gold, Reactoonz e simili), giochi da tavolo classici come blackjack, roulette e poker, più una sezione Live con croupier veri.</p>
+<p>Un punto va chiarito subito. La gamma di metodi di pagamento pende nettamente verso le criptovalute — Bitcoin, Ethereum, USDT su quattro reti diverse, Solana, XRP e altre — segnale tipico di un operatore internazionale. La licenza <b>non risulta confermata come AAMS/ADM</b>, quindi prima di aprire un conto vale la pena controllare di persona sotto quale autorità gira il sito. È un dettaglio che molte guide saltano a piè pari, e invece cambia tutto.</p>
+<p>Detto questo, l&#x27;uso quotidiano fila liscio: registrazione veloce, deposito minimo basso, piattaforma pensata per lo smartphone. Vediamo come si entra.</p>
+<div class="ctaBox"><div>Cazeus: bonus di benvenuto fino a <b>500 € + 200 giri gratis</b> sul casinò.</div><a class="btn" href="https://api.ecomuseominiererosas.it/login">Vai al sito</a></div><h2>Come Creare un Account su Cazeus</h2>
+<p>Aprire un conto ti porta via un paio di minuti. Ecco i passaggi:</p>
+<p>1. Vai sulla home e clicca sul pulsante <b>&quot;Registrati&quot;</b> in alto.</p>
+<p>2. Inserisci un indirizzo email valido — sarà anche il tuo nome utente per gli accessi futuri.</p>
+<p>3. Scegli <b>paese e valuta</b> (l&#x27;euro c&#x27;è).</p>
+<p>4. Imposta una <b>password robusta</b>: mescola maiuscole e minuscole, numeri e almeno un carattere speciale. Lascia perdere date di nascita e sequenze scontate.</p>
+<p>5. Indica la tua <b>data di nascita</b> — serve a verificare l&#x27;età, dato che il gioco è vietato ai minori di 18 anni.</p>
+<p>6. Spunta l&#x27;accettazione dei termini e della privacy.</p>
+<p>Fatto questo, il sistema ti manda un&#x27;<b>email con un link di attivazione</b>. Cliccalo per verificare l&#x27;indirizzo: senza questo passaggio il conto resta bloccato e non potrai né depositare né giocare. Se la mail non arriva entro qualche minuto, dai un&#x27;occhiata allo spam.</p>
+<p>Chi si registra ha diritto ai bonus di benvenuto: sul casinò trovi il <b>100% fino a 500 € più 200 giri gratis</b>, mentre sulle scommesse c&#x27;è un <b>100% fino a 150 €</b> sul primo deposito. Il rollover e le condizioni? Meglio leggerli sul sito prima di attivarli.</p>
+<h2>Come Fare il Login su Cazeus</h2>
+<p>Una volta attivato il conto, entrare è questione di secondi:</p>
+<p>1. Clicca su <b>&quot;Login&quot;</b> (di solito accanto al pulsante di registrazione).</p>
+<p>2. Scrivi l&#x27;email con cui ti sei iscritto.</p>
+<p>3. Inserisci la password.</p>
+<p>4. Conferma e sei dentro.</p>
+<p>Funziona sia da desktop sia da mobile — la piattaforma STB è pensata per il telefono senza attriti, quindi puoi entrare dal browser dello smartphone senza scaricare nulla. Da lì hai accesso completo: cassa, sezione scommesse, giochi e area promozioni.</p>
+<p>Un consiglio pratico: se giochi da un dispositivo personale e fidato, salvare le credenziali velocizza gli accessi. Su dispositivi condivisi, meglio digitarle a mano ogni volta.</p>
+<h2>Come Riconoscere il Sito Ufficiale ed Evitare Truffe</h2>
+<p>In rete girano domini fasulli che copiano la pagina di accesso per rubarti le credenziali. Prima di digitare i tuoi dati, fai questi controlli al volo:</p>
+<ul><li><b>Controlla l&#x27;URL</b>: assicurati di essere sul dominio ufficiale e diffida di indirizzi con errori di battitura o estensioni strane.</li><li><b>Verifica l&#x27;SSL</b>: il lucchetto e il prefisso `https://` devono comparire nella barra del browser.</li><li><b>Non digitare la password da link sospetti</b>: evita di accedere tramite collegamenti ricevuti via email o messaggi non richiesti; entra sempre scrivendo tu l&#x27;indirizzo.</li><li><b>Salva il sito nei preferiti</b> per tornarci sempre dalla via sicura.</li></ul>
+<h2>Password Dimenticata?</h2>
+<p>Capita a tutti. Recuperare l&#x27;accesso è semplice:</p>
+<p>1. Nella schermata di login clicca su <b>&quot;Password dimenticata&quot;</b>.</p>
+<p>2. Inserisci l&#x27;email associata al conto.</p>
+<p>3. Riceverai una mail con un <b>link per reimpostarla</b>.</p>
+<p>4. Segui le istruzioni e crea una nuova password.</p>
+<p>Anche qui, se il messaggio tarda, controlla lo spam. E già che ci sei, scegli una chiave davvero diversa dalla precedente — riusare la stessa password su più siti è l&#x27;errore classico che spalanca la porta ai guai.</p>
+<h2>Problemi Comuni al Login e Come Risolverli</h2>
+<p>Se l&#x27;accesso non va a buon fine, nel 90% dei casi la colpa è una di queste:</p>
+<ul><li><b>Credenziali sbagliate</b>: controlla che il Bloc Maiusc sia spento e che non ci siano spazi di troppo quando incolli la password. L&#x27;email dev&#x27;essere esattamente quella della registrazione.</li><li><b>Conto non attivato</b>: se non hai cliccato sul link di verifica nella mail post-registrazione, il login viene rifiutato. Riapri quel messaggio e completa l&#x27;attivazione.</li><li><b>Cache e cookie del browser</b>: i dati vecchi salvati possono bloccare la sessione. Svuota la cache o prova in incognito.</li><li><b>Connessione o VPN</b>: una VPN attiva o una rete instabile a volte sbarrano l&#x27;accesso. Disattiva la VPN e riprova.</li><li><b>Troppi tentativi falliti</b>: alcuni sistemi bloccano temporaneamente il conto dopo diversi errori di fila. In quel caso aspetta qualche minuto o reimposta la password.</li></ul>
+<p>Se dopo tutto questo il problema resta, contatta l&#x27;assistenza indicando la tua email registrata — sono loro a poter sbloccare il conto in casi specifici.</p>
+<h2>Sicurezza e Licenza di Cazeus Casino</h2>
+<p>Parliamoci chiaro. La piattaforma applica qualche buona pratica di sicurezza: password complesse obbligatorie, verifica dell&#x27;email all&#x27;iscrizione e soprattutto la procedura <b>KYC</b> prima del primo prelievo. Ti verrà chiesto un documento d&#x27;identità per confermare chi sei — è normale, e serve a proteggere te e il sistema dalle frodi. Nota importante: il deposito è immediato e non richiede KYC, ma <b>il primo prelievo sì</b>. Quindi conviene completare la verifica in anticipo, per non ritrovarti bloccato proprio quando vuoi incassare.</p>
+<p>Sulla licenza, però, serve onestà e un po&#x27; di prudenza: <b>Cazeus non figura come sito AAMS/ADM</b>. La forte presenza di criptovalute e i limiti di pagamento standard combaciano con un operatore internazionale. Non è un difetto in sé, ma cambia le garanzie a cui hai diritto rispetto a un concessionario nazionale. Prima di depositare, verifica sotto quale licenza opera la piattaforma e valuta se ti conviene giocare fuori dal circuito ADM. Gioca sempre con cifre che puoi permetterti di perdere.</p>
+<h2>Cosa Fare Dopo Essere Entrato nel Conto</h2>
+<p>Una volta dentro, questi sono i primi passi sensati:</p>
+<ul><li><b>Completa il profilo e il KYC</b>: caricare il documento subito ti evita ritardi al primo prelievo.</li><li><b>Fai il deposito</b>: il minimo è <b>10 €</b> su quasi tutti i metodi (30 € solo per Bitcoin). Tra le opzioni disponibili ci sono Visa/Mastercard, Revolut, Neteller, Mifinity e una lunga lista di criptovalute.</li><li><b>Attiva il bonus di benvenuto</b>: casinò o scommesse, scegli in base a come giochi.</li><li><b>Dai un&#x27;occhiata alle promo ricorrenti</b>: ricariche settimanali e del weekend, cashback giornaliero e offerte per le scommesse.</li></ul>
+<p>Per i prelievi, il minimo è <b>10 €</b> su carta e portafogli elettronici, mentre in cripto sale a 20 €. I tempi dipendono dal metodo scelto e dallo stato della verifica, quindi controllali direttamente in cassa.</p>
+<h2>Domande Frequenti sull&#x27;Accesso a Cazeus</h2>
+<p><b>Devo verificare l&#x27;identità per fare il login?</b></p>
+<p>No. Il login richiede solo email e password. Il documento (KYC) viene chiesto prima del primo prelievo, non per entrare né per depositare.</p>
+<p><b>Posso accedere dallo smartphone?</b></p>
+<p>Sì, la piattaforma è ottimizzata per il mobile. Entri dal browser del telefono con le stesse credenziali del desktop, senza installare nessuna app.</p>
+<p><b>Ho cambiato email: come aggiorno il conto?</b></p>
+<p>Le modifiche dei dati sensibili passano di solito dall&#x27;assistenza clienti. Contattali dal tuo account per aggiornare l&#x27;indirizzo in sicurezza.</p>
+<p><b>Non ricevo la mail di attivazione o di reset. Che faccio?</b></p>
+<p>Controlla lo spam e la posta indesiderata, verifica di aver scritto bene l&#x27;email e aspetta qualche minuto. Se non arriva, chiedi un nuovo invio o scrivi al supporto.</p>
+<p><b>Qual è il deposito minimo per iniziare?</b></p>
+<p>Bastano <b>10 €</b> su quasi tutti i metodi. Solo Bitcoin chiede un minimo di 30 €.</p>
+<p><b>Il sito è AAMS?</b></p>
+<p>Non risulta confermato come operatore ADM/AAMS. Verifica sempre la licenza prima di registrarti e gioca in modo responsabile.</p>
+  </article>
+  <div class="clusterFoot"><a href="/">Home</a><a href="/bonus/">Bonus</a><a href="/recensioni/">Recensioni</a><a href="/accesso/">Accesso</a><a href="/app/">App</a><a href="/prelievi/">Prelievi</a><a href="/verifica/">Verifica</a></div>
+</main>
+<footer>
+  <div class="fwrap">
+    <div class="comp">
+      <span class="age">18+</span>
+      <span>Il gioco è vietato ai minori di 18 anni e può causare dipendenza patologica. Gioca responsabilmente. Cazeus è un casinò internazionale non AAMS (licenza estera). Le immagini e i jackpot mostrati sono indicativi. Sito informativo indipendente — non un operatore di gioco.</span>
+    </div>
+    <nav class="cluster-foot"><a href="/">Home</a><a href="/bonus/">Bonus</a><a href="/recensioni/">Recensioni</a><a href="/accesso/">Accesso</a><a href="/app/">App</a></nav>
+    <div class="low">© 2026 Cazeus · Tutti i diritti riservati · Gioca responsabilmente</div>
+  </div>
+</footer>
+</body>
+</html>
